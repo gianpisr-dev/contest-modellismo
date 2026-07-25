@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*.npm
+*.yarn
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temp
+.temp/
+tmp/
+*.tmp
