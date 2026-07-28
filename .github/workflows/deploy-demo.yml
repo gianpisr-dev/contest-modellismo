@@ -1,0 +1,16 @@
+name: Demo deployment
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: staging   # <- metti qui il nome dell'environment che hai creato (es. "staging")
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Simula deploy
+        run: |
+          echo "Eseguo deploy di prova sull'environment staging"
